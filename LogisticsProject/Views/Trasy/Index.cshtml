@@ -1,0 +1,51 @@
+﻿@model IEnumerable<LogisticsProject.Models.Trasy>
+
+@{
+    ViewBag.Title = "Trasy";
+}
+
+<h2><br />Trasy</h2>
+
+<p>
+    @Html.ActionLink("Utwórz", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Długość")
+        </th>
+        <th>
+            @Html.DisplayName("Opłaty Dodatkowe")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CentraLogistyczne.Kod)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CentraLogistyczne1.Kod)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dlugosc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OplatyDodatkowe)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CentraLogistyczne.Kod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CentraLogistyczne1.Kod)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Szczegóły", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

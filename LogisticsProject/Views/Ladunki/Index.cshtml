@@ -1,0 +1,63 @@
+﻿@model IEnumerable<LogisticsProject.Models.Ladunki>
+
+@{
+    ViewBag.Title = "Ładunki";
+}
+
+<h2><br />Ładunki</h2>
+
+<p>
+    @Html.ActionLink("Utwórz", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Masa)
+        </th>
+        <th>
+            @Html.DisplayName("Długośc")
+        </th>
+        <th>
+            @Html.DisplayName("Szerokość")
+        </th>
+        <th>
+            @Html.DisplayName("Wysokość")
+        </th>
+        <th>
+            @Html.DisplayName("Wymóg Chłodni")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Klienci.Nazwa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Masa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dlugosc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Szerokosc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wysokosc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WymaganaChlodnia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Klienci.Nazwa)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Szczegóły", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

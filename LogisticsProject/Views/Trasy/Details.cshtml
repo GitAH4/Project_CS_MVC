@@ -1,0 +1,50 @@
+﻿@model LogisticsProject.Models.Trasy
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Trasy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Długość")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dlugosc)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Opłaty Dodatkowe")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OplatyDodatkowe)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Kod Centrum1")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CentraLogistyczne.Kod)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Kod Centrum2")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CentraLogistyczne1.Kod)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

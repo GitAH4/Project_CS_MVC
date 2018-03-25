@@ -1,0 +1,58 @@
+﻿@model LogisticsProject.Models.Klienci
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Klienci</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adres)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Właściciel")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wlasciciel)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nr Kontaktowy")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrKontaktowy)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nr Konta")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrKonta)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

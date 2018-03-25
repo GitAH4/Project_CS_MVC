@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LogisticDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CentraLogistyczne">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kod" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Miasto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ulica" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Numer" Type="Int32" Nullable="false" />
+    <Property Name="KodPocztowy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Trasy" Relationship="Self.FK_Trasy_CentraLogistyczne" FromRole="CentraLogistyczne" ToRole="Trasy" />
+    <NavigationProperty Name="Trasy1" Relationship="Self.FK_Trasy_CentraLogistyczne1" FromRole="CentraLogistyczne" ToRole="Trasy" />
+  </EntityType>
+  <EntityType Name="Klienci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazwa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Wlasciciel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NrKontaktowy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NrKonta" Type="String" MaxLength="26" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Ladunki" Relationship="Self.FK_Ladunki_Klienci" FromRole="Klienci" ToRole="Ladunki" />
+  </EntityType>
+  <EntityType Name="Ladunki">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Masa" Type="Int32" Nullable="false" />
+    <Property Name="Dlugosc" Type="Double" Nullable="false" />
+    <Property Name="Szerokosc" Type="Double" Nullable="false" />
+    <Property Name="Wysokosc" Type="Double" Nullable="false" />
+    <Property Name="WymaganaChlodnia" Type="Boolean" Nullable="false" />
+    <Property Name="IDKlienta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Klienci" Relationship="Self.FK_Ladunki_Klienci" FromRole="Ladunki" ToRole="Klienci" />
+    <NavigationProperty Name="Zlecenia" Relationship="Self.FK_Zlecenia_Ladunki" FromRole="Ladunki" ToRole="Zlecenia" />
+  </EntityType>
+  <EntityType Name="Naczepy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NrRejestracyjny" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Ladownosc" Type="Int32" Nullable="false" />
+    <Property Name="Dlugosc" Type="Double" Nullable="false" />
+    <Property Name="Szerokosc" Type="Double" Nullable="false" />
+    <Property Name="Wysokosc" Type="Double" Nullable="false" />
+    <Property Name="Chlodnia" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Pojazdy" Relationship="Self.FK_Pojazdy_Naczepy" FromRole="Naczepy" ToRole="Pojazdy" />
+  </EntityType>
+  <EntityType Name="Pojazdy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NrRejestracyjny" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="MasaCalkowita" Type="Int32" Nullable="false" />
+    <Property Name="Stawka" Type="Double" Nullable="false" />
+    <Property Name="Kierowca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NrKomorkowyKierowcy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDPrzewoznika" Type="Int32" />
+    <Property Name="IDNaczepy" Type="Int32" />
+    <NavigationProperty Name="Naczepy" Relationship="Self.FK_Pojazdy_Naczepy" FromRole="Pojazdy" ToRole="Naczepy" />
+    <NavigationProperty Name="Przewoznicy" Relationship="Self.FK_Pojazdy_Przewoznicy" FromRole="Pojazdy" ToRole="Przewoznicy" />
+    <NavigationProperty Name="Zlecenia" Relationship="Self.FK_Zlecenia_Pojazdy" FromRole="Pojazdy" ToRole="Zlecenia" />
+  </EntityType>
+  <EntityType Name="Przewoznicy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nazwa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AdresKontaktowy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Wlasciciel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NrKomorkowy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NrKonta" Type="String" MaxLength="26" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Pojazdy" Relationship="Self.FK_Pojazdy_Przewoznicy" FromRole="Przewoznicy" ToRole="Pojazdy" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Trasy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dlugosc" Type="Int32" Nullable="false" />
+    <Property Name="OplatyDodatkowe" Type="Double" Nullable="false" />
+    <Property Name="IDCentrum1" Type="Int32" Nullable="false" />
+    <Property Name="IDCentrum2" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CentraLogistyczne" Relationship="Self.FK_Trasy_CentraLogistyczne" FromRole="Trasy" ToRole="CentraLogistyczne" />
+    <NavigationProperty Name="CentraLogistyczne1" Relationship="Self.FK_Trasy_CentraLogistyczne1" FromRole="Trasy" ToRole="CentraLogistyczne" />
+    <NavigationProperty Name="Zlecenia" Relationship="Self.FK_Zlecenia_Trasy" FromRole="Trasy" ToRole="Zlecenia" />
+  </EntityType>
+  <EntityType Name="Zlecenia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DataZaladunku" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DataRozladunku" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDLadunku" Type="Int32" />
+    <Property Name="IDPojazdu" Type="Int32" />
+    <Property Name="IDTrasy" Type="Int32" />
+    <NavigationProperty Name="Ladunki" Relationship="Self.FK_Zlecenia_Ladunki" FromRole="Zlecenia" ToRole="Ladunki" />
+    <NavigationProperty Name="Pojazdy" Relationship="Self.FK_Zlecenia_Pojazdy" FromRole="Zlecenia" ToRole="Pojazdy" />
+    <NavigationProperty Name="Trasy" Relationship="Self.FK_Zlecenia_Trasy" FromRole="Zlecenia" ToRole="Trasy" />
+  </EntityType>
+  <Association Name="FK_Trasy_CentraLogistyczne">
+    <End Role="CentraLogistyczne" Type="Self.CentraLogistyczne" Multiplicity="1" />
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CentraLogistyczne">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Trasy">
+        <PropertyRef Name="IDCentrum1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Trasy_CentraLogistyczne1">
+    <End Role="CentraLogistyczne" Type="Self.CentraLogistyczne" Multiplicity="1" />
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CentraLogistyczne">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Trasy">
+        <PropertyRef Name="IDCentrum2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ladunki_Klienci">
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="1" />
+    <End Role="Ladunki" Type="Self.Ladunki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Ladunki">
+        <PropertyRef Name="IDKlienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Ladunki">
+    <End Role="Ladunki" Type="Self.Ladunki" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ladunki">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDLadunku" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pojazdy_Naczepy">
+    <End Role="Naczepy" Type="Self.Naczepy" Multiplicity="0..1" />
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naczepy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pojazdy">
+        <PropertyRef Name="IDNaczepy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pojazdy_Przewoznicy">
+    <End Role="Przewoznicy" Type="Self.Przewoznicy" Multiplicity="0..1" />
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Przewoznicy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pojazdy">
+        <PropertyRef Name="IDPrzewoznika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Pojazdy">
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pojazdy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDPojazdu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Trasy">
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trasy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDTrasy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LogisticDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CentraLogistyczne" EntityType="Self.CentraLogistyczne" />
+    <EntitySet Name="Klienci" EntityType="Self.Klienci" />
+    <EntitySet Name="Ladunki" EntityType="Self.Ladunki" />
+    <EntitySet Name="Naczepy" EntityType="Self.Naczepy" />
+    <EntitySet Name="Pojazdy" EntityType="Self.Pojazdy" />
+    <EntitySet Name="Przewoznicy" EntityType="Self.Przewoznicy" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Trasy" EntityType="Self.Trasy" />
+    <EntitySet Name="Zlecenia" EntityType="Self.Zlecenia" />
+    <AssociationSet Name="FK_Trasy_CentraLogistyczne" Association="Self.FK_Trasy_CentraLogistyczne">
+      <End Role="CentraLogistyczne" EntitySet="CentraLogistyczne" />
+      <End Role="Trasy" EntitySet="Trasy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Trasy_CentraLogistyczne1" Association="Self.FK_Trasy_CentraLogistyczne1">
+      <End Role="CentraLogistyczne" EntitySet="CentraLogistyczne" />
+      <End Role="Trasy" EntitySet="Trasy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ladunki_Klienci" Association="Self.FK_Ladunki_Klienci">
+      <End Role="Klienci" EntitySet="Klienci" />
+      <End Role="Ladunki" EntitySet="Ladunki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Ladunki" Association="Self.FK_Zlecenia_Ladunki">
+      <End Role="Ladunki" EntitySet="Ladunki" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pojazdy_Naczepy" Association="Self.FK_Pojazdy_Naczepy">
+      <End Role="Naczepy" EntitySet="Naczepy" />
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pojazdy_Przewoznicy" Association="Self.FK_Pojazdy_Przewoznicy">
+      <End Role="Przewoznicy" EntitySet="Przewoznicy" />
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Pojazdy" Association="Self.FK_Zlecenia_Pojazdy">
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Trasy" Association="Self.FK_Zlecenia_Trasy">
+      <End Role="Trasy" EntitySet="Trasy" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+    <FunctionImport Name="Dodaj_Trase">
+      <Parameter Name="IDC1" Mode="In" Type="Int32" />
+      <Parameter Name="IDC2" Mode="In" Type="Int32" />
+      <Parameter Name="Dlugosc" Mode="In" Type="Int32" />
+      <Parameter Name="OplatyDodatkowe" Mode="In" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(LogisticDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(LogisticDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="Szczeg_Trasy_z_Kod" ReturnType="Collection(LogisticDBModel.Szczeg_Trasy_z_Kod_Result)">
+      <Parameter Name="Kod1" Mode="In" Type="String" />
+      <Parameter Name="Kod2" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Szczeg_Trasy_z_Miasto" ReturnType="Collection(LogisticDBModel.Szczeg_Trasy_z_Miasto_Result)">
+      <Parameter Name="Miasto1" Mode="In" Type="String" />
+      <Parameter Name="Miasto2" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="NoweZamowienia" EntityType="LogisticDBModel.NoweZamowienia" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Szczeg_Trasy_z_Kod_Result">
+    <Property Type="Int32" Name="Dlugosc" Nullable="false" />
+    <Property Type="Double" Name="OplatyDodatkowe" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Szczeg_Trasy_z_Miasto_Result">
+    <Property Type="Int32" Name="Dlugosc" Nullable="false" />
+    <Property Type="Double" Name="OplatyDodatkowe" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="NoweZamowienia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NazwaFirmy" Type="String" Nullable="false" MaxLength="55" FixedLength="false" Unicode="true" />
+    <Property Name="AdresKontaktowy" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Wlasciciel" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MasaLadunku" Type="Int32" Nullable="false" />
+    <Property Name="DlugoscLadunku" Type="Double" Nullable="false" />
+    <Property Name="SzerokoscLadunku" Type="Double" Nullable="false" />
+    <Property Name="WysokoscLadunku" Type="Double" Nullable="false" />
+    <Property Name="WymaganaChlodnia" Type="Boolean" Nullable="false" />
+    <Property Name="DataZaladunku" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DataRozladunku" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MiejsceZaladunku" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="MiejsceRozladunku" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

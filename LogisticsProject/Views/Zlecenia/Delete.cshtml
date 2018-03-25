@@ -1,0 +1,64 @@
+﻿@model LogisticsProject.Models.Zlecenia
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Zlecenia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZaladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZaladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataRozladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataRozladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ladunki.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ladunki.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pojazdy.NrRejestracyjny)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pojazdy.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Trasy.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trasy.ID)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

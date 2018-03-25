@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Strona Główna";
+}
+@if (!Request.IsAuthenticated)
+{
+    <br/>
+    <br/>
+    <div class="jumbotron">
+        <h1>Logistics</h1>
+        <p class="lead">System zarządzania centrami logistycznymi, zlecenia, ładunki, etc.</p>
+        <p><a href="~/NoweZamowienia/Create" class="btn btn-primary btn-lg">Zamów! &raquo;</a>
+        </p>
+    </div>
+}
+else
+{
+  
+
+   <div class="jumbotron">
+        <h1>Strefa Pracownika</h1>
+        <p class="lead">Miłego dnia!</p>
+        <p><a href="~/NoweZamowienia" class="btn btn-primary btn-lg">Sprawdź nowe zamówienia &raquo;</a></p>
+    </div>
+}
+
+
+@*<div class="row">
+    <div class="col-md-4">
+        <h2>Załadunki</h2>
+        <p>
+            Przykładowy tekst, do zmiany.
+        </p>
+        <p><a class="btn btn-default" href="~/Ladunki">Więcej &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Zlecenia</h2>
+        <p>Przykładowy tekst, do zmiany.</p>
+        <p><a class="btn btn-default" href="~/Zlecenia">Więcej &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Naczepy</h2>
+        <p>Przykładowy tekst, do zmiany.</p>
+        <p><a class="btn btn-default" href="~/Naczepy">Więcej &raquo;</a></p>
+    </div>
+</div>*@

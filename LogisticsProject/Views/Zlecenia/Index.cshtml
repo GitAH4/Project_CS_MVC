@@ -1,0 +1,69 @@
+﻿@model IEnumerable<LogisticsProject.Models.Zlecenia>
+
+@{
+    ViewBag.Title = "Zlecenia";
+}
+
+<h2><br />Zlecenia</h2>
+
+<p>
+<p> @Html.ActionLink("Utwórz", "Create", "Zlecenia", new { datazaladunku = DateTime.Now, dataRozladunku = DateTime.Now }, null)</p>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Data załadunku")
+        </th>
+        <th>
+            @Html.DisplayName("Data rozładunku")
+        </th>
+        <th>
+            @Html.DisplayName("ID ładunku")
+        </th>
+        <th>
+           @Html.DisplayName("Numer rejestracyjny pojazdu")
+        </th>
+        <th>
+            @Html.DisplayName("ID Trasy")
+        </th>
+        <th>
+            @Html.DisplayName("Centrum Logistyczne 1")
+        </th>
+        <th>
+           @Html.DisplayName("Centrum Logistyczne 2")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataZaladunku)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataRozladunku)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ladunki.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pojazdy.NrRejestracyjny)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trasy.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trasy.CentraLogistyczne.Kod)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trasy.CentraLogistyczne1.Kod)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Szczegóły", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

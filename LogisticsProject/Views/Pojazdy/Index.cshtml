@@ -1,0 +1,69 @@
+﻿@model IEnumerable<LogisticsProject.Models.Pojazdy>
+
+@{
+    ViewBag.Title = "Pojazdy";
+}
+
+<h2><br />Pojazdy</h2>
+
+<p>
+    @Html.ActionLink("Utwórz", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Nr Rejestracyjny")
+        </th>
+        <th>
+            @Html.DisplayName("Masa Całkowita")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stawka)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kierowca)
+        </th>
+        <th>
+            @Html.DisplayName("Numer Komórkowy Kierowcy")
+        </th>
+        <th>
+            @Html.DisplayName("Nr Rejestracyjny")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Przewoznicy.Nazwa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NrRejestracyjny)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MasaCalkowita)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stawka)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kierowca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NrKomorkowyKierowcy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Naczepy.NrRejestracyjny)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Przewoznicy.Nazwa)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Szczegóły", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

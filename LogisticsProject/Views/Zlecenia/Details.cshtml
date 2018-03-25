@@ -1,0 +1,58 @@
+﻿@model LogisticsProject.Models.Zlecenia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Zlecenia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Data Załadunku")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZaladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Data Rozładunku")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataRozladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("ID Ładunku")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ladunki.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Numer Rejestracyjny")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pojazdy.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Trasy.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Trasy.ID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

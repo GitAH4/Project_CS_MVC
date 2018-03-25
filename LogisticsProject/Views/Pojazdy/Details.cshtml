@@ -1,0 +1,74 @@
+﻿@model LogisticsProject.Models.Pojazdy
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pojazdy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Nr Rejestracyjny")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Masa Całkowita [kg]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MasaCalkowita)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Stawka [zł/km]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stawka)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kierowca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kierowca)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nr Kom Kierowcy")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrKomorkowyKierowcy)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nr Rejestracyjny Naczepy")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Naczepy.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nazwa Przewoźnika")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Przewoznicy.Nazwa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

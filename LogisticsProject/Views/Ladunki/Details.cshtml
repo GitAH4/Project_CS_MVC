@@ -1,0 +1,66 @@
+﻿@model LogisticsProject.Models.Ladunki
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ladunki</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Masa [kg]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Masa)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Długość [m]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dlugosc)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Szerokość [m]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Szerokosc)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Wysokość [m]")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wysokosc)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Wymagana Chłodnia")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WymaganaChlodnia)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Nazwa Klienta")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Klienci.Nazwa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

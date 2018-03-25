@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LogisticDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CentraLogistyczne">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kod" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="Miasto" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ulica" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Numer" Type="int" Nullable="false" />
+    <Property Name="KodPocztowy" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Klienci">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Wlasciciel" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NrKontaktowy" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="NrKonta" Type="nvarchar" MaxLength="26" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ladunki">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Masa" Type="int" Nullable="false" />
+    <Property Name="Dlugosc" Type="float" Nullable="false" />
+    <Property Name="Szerokosc" Type="float" Nullable="false" />
+    <Property Name="Wysokosc" Type="float" Nullable="false" />
+    <Property Name="WymaganaChlodnia" Type="bit" Nullable="false" />
+    <Property Name="IDKlienta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Naczepy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NrRejestracyjny" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Ladownosc" Type="int" Nullable="false" />
+    <Property Name="Dlugosc" Type="float" Nullable="false" />
+    <Property Name="Szerokosc" Type="float" Nullable="false" />
+    <Property Name="Wysokosc" Type="float" Nullable="false" />
+    <Property Name="Chlodnia" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NoweZamowienia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NazwaFirmy" Type="nvarchar" MaxLength="55" Nullable="false" />
+    <Property Name="AdresKontaktowy" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Wlasciciel" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MasaLadunku" Type="int" Nullable="false" />
+    <Property Name="DlugoscLadunku" Type="float" Nullable="false" />
+    <Property Name="SzerokoscLadunku" Type="float" Nullable="false" />
+    <Property Name="WysokoscLadunku" Type="float" Nullable="false" />
+    <Property Name="WymaganaChlodnia" Type="bit" Nullable="false" />
+    <Property Name="DataZaladunku" Type="date" Nullable="false" />
+    <Property Name="DataRozladunku" Type="date" Nullable="false" />
+    <Property Name="MiejsceZaladunku" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="MiejsceRozladunku" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pojazdy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NrRejestracyjny" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="MasaCalkowita" Type="int" Nullable="false" />
+    <Property Name="Stawka" Type="float" Nullable="false" />
+    <Property Name="Kierowca" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NrKomorkowyKierowcy" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="IDPrzewoznika" Type="int" />
+    <Property Name="IDNaczepy" Type="int" />
+  </EntityType>
+  <EntityType Name="Przewoznicy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AdresKontaktowy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Wlasciciel" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NrKomorkowy" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="NrKonta" Type="nvarchar" MaxLength="26" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Trasy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dlugosc" Type="int" Nullable="false" />
+    <Property Name="OplatyDodatkowe" Type="float" Nullable="false" />
+    <Property Name="IDCentrum1" Type="int" Nullable="false" />
+    <Property Name="IDCentrum2" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Zlecenia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DataZaladunku" Type="date" Nullable="false" />
+    <Property Name="DataRozladunku" Type="date" Nullable="false" />
+    <Property Name="IDLadunku" Type="int" />
+    <Property Name="IDPojazdu" Type="int" />
+    <Property Name="IDTrasy" Type="int" />
+  </EntityType>
+  <Association Name="FK_Ladunki_Klienci">
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="1" />
+    <End Role="Ladunki" Type="Self.Ladunki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienci">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Ladunki">
+        <PropertyRef Name="IDKlienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pojazdy_Naczepy">
+    <End Role="Naczepy" Type="Self.Naczepy" Multiplicity="0..1" />
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naczepy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pojazdy">
+        <PropertyRef Name="IDNaczepy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pojazdy_Przewoznicy">
+    <End Role="Przewoznicy" Type="Self.Przewoznicy" Multiplicity="0..1" />
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Przewoznicy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pojazdy">
+        <PropertyRef Name="IDPrzewoznika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Trasy_CentraLogistyczne">
+    <End Role="CentraLogistyczne" Type="Self.CentraLogistyczne" Multiplicity="1" />
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CentraLogistyczne">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Trasy">
+        <PropertyRef Name="IDCentrum1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Trasy_CentraLogistyczne1">
+    <End Role="CentraLogistyczne" Type="Self.CentraLogistyczne" Multiplicity="1" />
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CentraLogistyczne">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Trasy">
+        <PropertyRef Name="IDCentrum2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Ladunki">
+    <End Role="Ladunki" Type="Self.Ladunki" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ladunki">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDLadunku" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Pojazdy">
+    <End Role="Pojazdy" Type="Self.Pojazdy" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pojazdy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDPojazdu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zlecenia_Trasy">
+    <End Role="Trasy" Type="Self.Trasy" Multiplicity="0..1" />
+    <End Role="Zlecenia" Type="Self.Zlecenia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trasy">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Zlecenia">
+        <PropertyRef Name="IDTrasy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Dodaj_Trase" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDC1" Type="int" Mode="In" />
+    <Parameter Name="IDC2" Type="int" Mode="In" />
+    <Parameter Name="Dlugosc" Type="int" Mode="In" />
+    <Parameter Name="OplatyDodatkowe" Type="float" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="Koszt_Trasy" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="float">
+    <Parameter Name="Kod1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Kod2" Type="nvarchar" Mode="In" />
+    <Parameter Name="Stawka" Type="float" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Szczeg_Trasy_z_Kod" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Kod1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Kod2" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Szczeg_Trasy_z_Miasto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Miasto1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Miasto2" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="LogisticDBModelStoreContainer">
+    <EntitySet Name="CentraLogistyczne" EntityType="Self.CentraLogistyczne" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Klienci" EntityType="Self.Klienci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ladunki" EntityType="Self.Ladunki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Naczepy" EntityType="Self.Naczepy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NoweZamowienia" EntityType="Self.NoweZamowienia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pojazdy" EntityType="Self.Pojazdy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Przewoznicy" EntityType="Self.Przewoznicy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Trasy" EntityType="Self.Trasy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zlecenia" EntityType="Self.Zlecenia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Ladunki_Klienci" Association="Self.FK_Ladunki_Klienci">
+      <End Role="Klienci" EntitySet="Klienci" />
+      <End Role="Ladunki" EntitySet="Ladunki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pojazdy_Naczepy" Association="Self.FK_Pojazdy_Naczepy">
+      <End Role="Naczepy" EntitySet="Naczepy" />
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pojazdy_Przewoznicy" Association="Self.FK_Pojazdy_Przewoznicy">
+      <End Role="Przewoznicy" EntitySet="Przewoznicy" />
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Trasy_CentraLogistyczne" Association="Self.FK_Trasy_CentraLogistyczne">
+      <End Role="CentraLogistyczne" EntitySet="CentraLogistyczne" />
+      <End Role="Trasy" EntitySet="Trasy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Trasy_CentraLogistyczne1" Association="Self.FK_Trasy_CentraLogistyczne1">
+      <End Role="CentraLogistyczne" EntitySet="CentraLogistyczne" />
+      <End Role="Trasy" EntitySet="Trasy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Ladunki" Association="Self.FK_Zlecenia_Ladunki">
+      <End Role="Ladunki" EntitySet="Ladunki" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Pojazdy" Association="Self.FK_Zlecenia_Pojazdy">
+      <End Role="Pojazdy" EntitySet="Pojazdy" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zlecenia_Trasy" Association="Self.FK_Zlecenia_Trasy">
+      <End Role="Trasy" EntitySet="Trasy" />
+      <End Role="Zlecenia" EntitySet="Zlecenia" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

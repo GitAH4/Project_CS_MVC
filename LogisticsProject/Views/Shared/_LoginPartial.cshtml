@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-nav" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav list-inline text-center">
+                <li>@Html.ActionLink("Klienci", "Index", "Klienci")</li>
+                <li>@Html.ActionLink("Pojazdy", "Index", "Pojazdy")</li>
+                <li>@Html.ActionLink("Naczepy", "Index", "Naczepy")</li>
+                <li>@Html.ActionLink("Centra Logistyczne", "Index", "CentraLogistyczne")</li>
+                <li>@Html.ActionLink("Zlecenia", "Index", "Zlecenia")</li>
+                <li>@Html.ActionLink("Przewoźnicy", "Index", "Przewoznicy")</li>
+                <li>@Html.ActionLink("Trasy", "Index", "Trasy")</li>
+                <li>@Html.ActionLink("Ładunki", "Index", "Ladunki")</li>
+                <li>@Html.ActionLink("Nowe Zamówienia", "Index", "NoweZamowienia")</li>
+                
+            </ul>
+        </div>
+        @*<ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>*@
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Strefa Pracownika", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

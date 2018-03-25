@@ -1,0 +1,344 @@
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\csc.exe
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\vbc.exe
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\LogisticsProject.dll.config
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\LogisticsProject.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\LogisticsProject.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Antlr3.Runtime.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\EntityFramework.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Newtonsoft.Json.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Owin.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Helpers.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Mvc.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Optimization.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Razor.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\WebGrease.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Helpers.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Mvc.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Optimization.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.Razor.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Antlr3.Runtime.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Newtonsoft.Json.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\EntityFramework.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\obj\Debug\LogisticsProject.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\LogisticsProject\LogisticsProject\obj\Debug\LogisticsProject.pdb
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\csc.exe
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\vbc.exe
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\LogisticsProject.dll.config
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\LogisticsProject.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\LogisticsProject.pdb
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Antlr3.Runtime.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\EntityFramework.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Newtonsoft.Json.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Helpers.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Mvc.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Optimization.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Razor.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\WebGrease.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Helpers.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Mvc.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Optimization.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.Razor.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Antlr3.Runtime.pdb
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Newtonsoft.Json.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\EntityFramework.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\obj\Debug\LogisticsProject.csprojResolveAssemblyReference.cache
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\obj\Debug\LogisticsProject.dll
+C:\Users\shimm\Desktop\LogisticsProject\LogisticsProject\obj\Debug\LogisticsProject.pdb
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\csc.exe
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\vbc.exe
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\LogisticsProject.dll.config
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\LogisticsProject.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\LogisticsProject.pdb
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Antlr3.Runtime.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\EntityFramework.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Newtonsoft.Json.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Owin.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Helpers.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Mvc.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Optimization.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Razor.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\WebGrease.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Helpers.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Mvc.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Optimization.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.Razor.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Antlr3.Runtime.pdb
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Newtonsoft.Json.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\EntityFramework.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\obj\Debug\LogisticsProject.csprojResolveAssemblyReference.cache
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\obj\Debug\LogisticsProject.dll
+C:\Users\shimm\Desktop\LogisticsProject - Copy - Copy\LogisticsProject\obj\Debug\LogisticsProject.pdb
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\csc.exe
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\vbc.exe
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.dll.config
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.pdb
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Antlr3.Runtime.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\EntityFramework.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Newtonsoft.Json.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Owin.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Helpers.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Mvc.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Optimization.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Razor.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\WebGrease.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Helpers.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Mvc.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Optimization.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.Razor.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Antlr3.Runtime.pdb
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Newtonsoft.Json.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\EntityFramework.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.csprojResolveAssemblyReference.cache
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.dll
+C:\Users\Hala\Documents\Visual Studio 2015\Projects\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.pdb
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\csc.exe
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\vbc.exe
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.dll.config
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\LogisticsProject.pdb
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Antlr3.Runtime.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\EntityFramework.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Newtonsoft.Json.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Owin.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Helpers.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Mvc.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Optimization.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Razor.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\WebGrease.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Helpers.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Mvc.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Optimization.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.Razor.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Antlr3.Runtime.pdb
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Newtonsoft.Json.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\EntityFramework.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.csprojResolveAssemblyReference.cache
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.dll
+C:\Users\Konrad\Desktop\NIBY DZIALA\LogisticsProject\obj\Debug\LogisticsProject.pdb

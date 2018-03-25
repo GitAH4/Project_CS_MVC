@@ -1,0 +1,80 @@
+﻿@model LogisticsProject.Models.Pojazdy
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Pojazdy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NrRejestracyjny)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MasaCalkowita)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MasaCalkowita)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stawka)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stawka)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kierowca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kierowca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NrKomorkowyKierowcy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrKomorkowyKierowcy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Naczepy.NrRejestracyjny)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Naczepy.NrRejestracyjny)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Przewoznicy.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Przewoznicy.Nazwa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

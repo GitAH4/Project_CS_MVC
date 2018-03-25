@@ -1,0 +1,134 @@
+﻿@using LogisticsProject.Models
+@model LogisticsProject.Models.NoweZamowienia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NoweZamowienia</h4>
+    <div class="navbar-nav" align="center" class="form-group">
+        <div>
+            <p> @Html.ActionLink("Stwórz klienta", "Create", "Klienci", new { nazwaFirmy = Model.NazwaFirmy, adres = Model.AdresKontaktowy, wlasciciel = Model.Wlasciciel, email = Model.Email }, null)</p>
+            <p> @Html.ActionLink("Stwórz ładunek", "Create", "Ladunki", new { masa = Model.MasaLadunku, dlugosc = Model.DlugoscLadunku, szerokosc = Model.SzerokoscLadunku, wysokosc = Model.WysokoscLadunku, chlodnia = Model.WymaganaChlodnia }, null)</p>
+            <p> @Html.ActionLink("Stwórz zlecenie", "Create", "Zlecenia", new { datazaladunku = Model.DataZaladunku, dataRozladunku = Model.DataRozladunku}, null)</p>
+        </div>
+    </div>
+    <br/>
+    <hr />
+
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaFirmy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaFirmy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdresKontaktowy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdresKontaktowy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wlasciciel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wlasciciel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MasaLadunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MasaLadunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DlugoscLadunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DlugoscLadunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SzerokoscLadunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SzerokoscLadunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WysokoscLadunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WysokoscLadunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WymaganaChlodnia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WymaganaChlodnia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZaladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZaladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataRozladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataRozladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MiejsceZaladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MiejsceZaladunku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MiejsceRozladunku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MiejsceRozladunku)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+
+</p>
